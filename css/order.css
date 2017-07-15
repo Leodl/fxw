@@ -1,0 +1,30 @@
+#main {
+  margin-bottom: 200px;
+}
+#main .title {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #c3c3c3;
+}
+#main .title a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 14px;
+  color: #90939b;
+}
+#main .infoone {
+  width: 70%;
+  margin: 0 auto;
+  display: none;
+}
+#main .infoone .pic {
+  text-align: center;
+}
+#main .infoone p {
+  margin-top: 1rem;
+  line-height: 30px;
+  font-size: 1.4rem;
+}

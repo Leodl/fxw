@@ -1,0 +1,89 @@
+#main {
+  width: 100%;
+  margin-top: 3rem;
+  background: #F8F8F8;
+  margin-bottom: 150px;
+  overflow: hidden;
+}
+#main .left {
+  width: 70%;
+  padding-top: 1rem;
+  float: left;
+}
+#main .left ul {
+  list-style: none;
+  padding: 0px;
+  overflow: hidden;
+  padding-left: 5rem;
+  margin-top: 3rem;
+}
+#main .left ul li {
+  overflow: hidden;
+  background: #FFFFFF;
+  padding: 1rem;
+  border-bottom: 1px solid #c3c3c3;
+}
+#main .left ul li .pic {
+  float: left;
+}
+#main .left ul li .pic img {
+  width: 160px;
+  height: 96px;
+}
+#main .left ul li a {
+  text-decoration: none;
+  display: block;
+}
+#main .left ul li .info {
+  float: left;
+  width: 80%;
+  padding-left: 2rem;
+}
+#main .left ul li .info p:nth-child(1) {
+  color: #393939;
+  font-size: 20px;
+  padding-bottom: 1rem;
+}
+#main .left ul li .info p:nth-child(2) {
+  color: #76838f;
+  font-size: 14px;
+  padding-bottom: 1rem;
+  font-weight: 300;
+  line-height: 20px;
+}
+#main .left ul li .info p:nth-child(3) span {
+  color: #a3afb7;
+  font-size: 14px;
+  padding-right: 1rem;
+}
+#main .right {
+  float: right;
+  margin-top: 5rem;
+  margin-right: 5rem;
+  width: 20%;
+  padding: 1.5rem;
+  background: #FFFFFF;
+}
+#main .right .title {
+  padding-bottom: 1rem;
+}
+#main .right .title h3 {
+  font-size: 20px;
+  color: #5a5a5a;
+}
+#main .right ul {
+  list-style: none;
+  padding: 0px;
+  border: 1px solid #c3c3c3;
+  border-bottom: none;
+}
+#main .right ul li {
+  border-bottom: 1px solid #c3c3c3;
+  padding: 1rem;
+}
+#main .right ul li a {
+  text-decoration: none;
+  color: #2a333c;
+  font-size: 15px;
+  line-height: 26px;
+}
